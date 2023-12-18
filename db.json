@@ -1,0 +1,64 @@
+{
+    "recipes": [
+        {
+            "id": 0,
+            "name": "Spaghetti Bolognese",
+            "cuisine": "Italian",
+            "ingredients": [
+                "spaghetti",
+                "ground beef",
+                "tomato sauce",
+                "onions",
+                "garlic"
+            ],
+            "instructions": "Cook spaghetti. Brown beef, onions, and garlic. Add tomato sauce. Combine with spaghetti.",
+            "calories": 450,
+            "duration": "30 minutes"
+        },
+        {
+            "id": 1,
+            "name": "Chicken Tikka Masala",
+            "cuisine": "Indian",
+            "ingredients": [
+                "chicken",
+                "yogurt",
+                "tomato sauce",
+                "spices",
+                "cream"
+            ],
+            "instructions": "Marinate chicken in yogurt and spices. Grill until cooked. Simmer in tomato sauce and cream.",
+            "calories": 550,
+            "duration": "45 minutes"
+        },
+        {
+            "id": 2,
+            "name": "Sushi Rolls",
+            "cuisine": "Japanese",
+            "ingredients": [
+                "sushi rice",
+                "seaweed",
+                "fish (salmon/tuna)",
+                "avocado",
+                "soy sauce"
+            ],
+            "instructions": "Prepare sushi rice. Lay seaweed, add rice, fish, and avocado. Roll tightly. Slice and serve with soy sauce.",
+            "calories": 400,
+            "duration": "60 minutes"
+        },
+        {
+            "id": 3,
+            "name": "Mushroom Risotto",
+            "cuisine": "Italian",
+            "ingredients": [
+                "arborio rice",
+                "mushrooms",
+                "vegetable broth",
+                "onions",
+                "parmesan cheese"
+            ],
+            "instructions": "Sauté onions and mushrooms. Add arborio rice. Gradually add vegetable broth. Stir in parmesan cheese.",
+            "calories": 500,
+            "duration": "40 minutes"
+        }
+    ]
+}
