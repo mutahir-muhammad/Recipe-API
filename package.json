@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "heroku": "^8.7.1",
     "json-server": "^0.17.4"
   },
   "name": "recipe-api",
