@@ -1,5 +1,20 @@
 {
   "dependencies": {
     "json-server": "^0.17.4"
-  }
+  },
+  "name": "recipe-api",
+  "description": "my Recipe API\r An API to share recipes from different cuisines all around the globe.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutahir-muhammad/Recipe-API.git"
+  },
+  "author": "muhammad mutahir",
+  "license": "ISC"
 }
