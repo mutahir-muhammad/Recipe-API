@@ -7,6 +7,7 @@ We welcome contributions to our recipe collection!
 If you'd like to add a new recipe, please follow these guidelines:
 ### Recipe Format
 Each recipe should be formatted as a JSON object with the following structure:
+
 ```JSON
 {
     "id": [Unique numerical identifier],
@@ -24,16 +25,25 @@ Each recipe should be formatted as a JSON object with the following structure:
 ```
 
 ### Guidelines
-**Unique Identifier (id)**: Ensure each recipe has a unique numerical identifier.
+1. **Unique Identifier (id)**: Ensure each recipe has a unique numerical identifier in the incremental order it is going to be stored in.
 
-**Name (name)**: Provide a clear and concise name for the recipe.
+2. **Name (name)**: Provide a clear and concise name for the recipe.
 
-**Cuisine (cuisine)**: Specify the cuisine type (e.g., Italian, Indian, Japanese).
+3. **Cuisine (cuisine)**: Specify the cuisine type (e.g., Italian, Indian, Japanese, Chinese).
 
-**Ingredients (ingredients)**: List all ingredients as strings in an array.
+4. **Ingredients (ingredients)**: List all ingredients as strings in an array.
 
-**Instructions (instructions)**: Write step-by-step cooking instructions.
+5. **Instructions (instructions)**: Write step-by-step cooking instructions.
 
-**Calories (calories)**: Include the approximate calories for the entire recipe.
+6. **Calories (calories)**: Include the approximate calories for the entire recipe.
 
-**Duration (duration)**: Indicate the total cooking duration.
+7. **Duration (duration)**: Indicate the total time it takes for cooking.
+
+## How to submit
+- Fork this repository.
+
+- Add your recipe to the recipes array in data.json.
+
+- Create a pull request with a clear title and description.
+
+*Thank you for contributing!*
